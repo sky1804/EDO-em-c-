@@ -71,11 +71,9 @@ Por fim, o usuário pode informar um valor de \(x\) para calcular o valor corres
 
 ```text
 EDO-em-c--main/
-├── M#U00e9todo 1   # Método das variáveis separáveis
-└── M#U00e9todo 2   # Método do fator integrante
+├── Método 1   # Método das variáveis separáveis
+└── Método 2   # Método do fator integrante
 ```
-
-> Os arquivos estão sem a extensão `.cpp`. Para facilitar o uso e a identificação, eles podem ser renomeados para `metodo_separavel.cpp` e `fator_integrante.cpp`.
 
 ## Como compilar e executar
 
@@ -84,8 +82,8 @@ EDO-em-c--main/
 Com os nomes atuais dos arquivos:
 
 ```bash
-g++ -x c++ "M#U00e9todo 1" -o metodo_separavel
-g++ -x c++ "M#U00e9todo 2" -o fator_integrante
+g++ -x c++ "metodo_separavel" -o metodo_separavel
+g++ -x c++ "fator_integrante" -o fator_integrante
 ```
 
 No Linux/macOS:
